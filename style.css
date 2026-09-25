@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.home {
+    height: 100vh;
+
+    background-image: url("images/sh14.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.home a {
+    background-color: white;
+    color: #4c2915;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.photos img {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("images/sh14.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.videos video {
+    width: 500px;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.birthday-message {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 30px auto;
+    max-width: 700px;
+}
